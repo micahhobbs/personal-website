@@ -1,0 +1,17 @@
+{
+  "name": "micahthobbs.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve & tailwindcss -i ./src/css/styles.css -o ./public/css/styles.css --watch",
+    "build": "npx @11ty/eleventy & tailwindcss -i ./src/css/styles.css -o ./public/css/styles.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy",
+    "tailwindcss": "^3.2.7"
+  }
+}
