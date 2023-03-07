@@ -1,5 +1,6 @@
 module.exports = function(eleventyConfig) {
   // Return your Object options:
+  eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
   return {
     dir: {
       input: "src",
