@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // https://www.youtube.com/watch?v=VcW3T9EOo5M
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,njk,md,js}"],
   theme: {
     extend: {},
   },
