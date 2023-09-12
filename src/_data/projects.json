@@ -1,6 +1,6 @@
 [
   {
-    "title": "Project 1",
+    "title": "Curb Your Spend",
     "year": "test",
     "description": "This is the first project.",
     "overview": "This is the first project.",
@@ -8,7 +8,7 @@
     "github": "This is the first project."
   },
   {
-    "title": "Project 2",
+    "title": "Rent a Boat",
     "year": "test",
     "description": "This is the first project.",
     "overview": "This is the first project.",
@@ -16,7 +16,7 @@
     "github": "This is the first project."
   },
   {
-    "title": "Project 3",
+    "title": "Random Quote Generator",
     "year": "test",
     "description": "This is the first project.",
     "overview": "This is the first project.",
@@ -24,7 +24,23 @@
     "github": "This is the first project."
   },
   {
-    "title": "Project 4",
+    "title": "Annual Performance Reviews",
+    "year": "test",
+    "description": "This is the first project.",
+    "overview": "This is the first project.",
+    "demo": "This is the first project.",
+    "github": "This is the first project."
+  },
+  {
+    "title": "Conference Form",
+    "year": "test",
+    "description": "This is the first project.",
+    "overview": "This is the first project.",
+    "demo": "This is the first project.",
+    "github": "This is the first project."
+  },
+  {
+    "title": "Technical Documentation",
     "year": "test",
     "description": "This is the first project.",
     "overview": "This is the first project.",

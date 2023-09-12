@@ -4,3 +4,9 @@ title: Projects | Micah T. Hobbs
 ---
 
 <h1 class="text-3xl font-bold">Projects</h1>
+
+<ul>
+  {% for project in projects %}
+    <li>{{ project.title }}</li>
+  {% endfor %}
+</ul>

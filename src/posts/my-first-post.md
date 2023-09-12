@@ -4,4 +4,4 @@ title: My First Post
 tags: post
 ---
 
-Hello from {{ title }}!
+Hello 👋

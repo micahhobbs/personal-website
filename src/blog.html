@@ -6,7 +6,12 @@ title: Blog | Micah T. Hobbs
 <h1 class="text-3xl font-bold">Blog</h1>
 
 <ul>
-  {%- for blog in collections.blog -%}
-    <li{% if page.url == blog.url %} aria-current="page"{% endif %}>{{ blog.data.title }}</li>
-  {%- endfor -%}
-</ul>
+  {% for post in collections.post %}
+  <li class="pt-2">
+    <a href="{{ post.url }}" class="underline text-blue-600">
+      <h3>{{ post.data.title }}</h3>
+      <!-- <time>{{ post.data.date }} </time> -->
+    </a>
+  </li>
+  {% endfor %}
+  </ul> 
