@@ -9,26 +9,26 @@
   <meta name="title" content="Micah Hobbs | Software developer">
   <meta name="description" content="Hi, I'm Micah. I'm a software developer from Canberra, Australia.">
 </head>
-<body class="container mx-auto px-3 md:px-8 max-w-6xl bg-gray-100 text-gray-900">
+<body class="container mx-auto px-3 md:px-8 max-w-6xl bg-gray-100 text-gray-700">
   <header class="pt-3">
     <h1 class="hidden text-xl md:block md:py-3">Micah Hobbs 👨‍💻</h1>
     <nav class="">
       <ul class="flex space-x-5 text-base">
         <li><a href="/" class="underline text-blue-600">Home</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/blog">Blog</a></li>
-        <li><a href="/projects">Projects</a></li>
+        <li><a href="/about" class="underline text-blue-600">About</a></li>
+        <li><a href="/blog" class="underline text-blue-600">Blog</a></li>
+        <li><a href="/projects" class="underline text-blue-600">Projects</a></li>
       </ul>
     </nav>
   </header>
   <main class="pt-10">
     
 <p class="text-3xl font-bold">Hey, I'm Micah 👋</p>  
-<p class="pt-8">I'm a software developer living in Canberra Australia. I currently work for <a href="https://www.pragma.com.au/people/micah-hobbs/" target="_blank" class="underline text-blue-600">Pragma as a Principal Consultant</a>. I love to make stuff and deliver digital products. I mainly work as a developer but I often fill other digital roles like product manager, solution architect, or delivery manager to help get things done.</p>
+<p class="pt-8">I'm a software developer living in Canberra Australia. I currently work for <a href="https://www.pragma.com.au/people/micah-hobbs/" target="_blank" class="underline text-blue-600 after:content-['↗️']">Pragma as a Principal Consultant</a>. I love to deliver digital products. I'm a generalist but have the most fun doing developer work. I often fill other digital roles like product manager, solution architect, or delivery manager to help get things done.</p>
 
 <div class="flex justify-between pt-12">
-  <h2 class="text-3xl font-semibold">Latest posts</h2>
-  <a href="/blog" class="py-2 px-6 bg-slate-50 rounded border border-solid  border-slate-200 hover:border-slate-400">View all</a>
+  <h2 class="text-3xl font-semibold">Posts</h2>
+  <a href="/blog" class="py-2 px-6 underline text-blue-600 bg-slate-50 rounded border border-solid  border-slate-200 hover:border-slate-400">View all</a>
 </div>
   <ul>
   
@@ -44,8 +44,8 @@
 <!-- Pull latest posts -->
 
 <div class="flex justify-between pt-12">
-  <h2 class="text-3xl font-bold">Featured projects</h2>
-  <a href="/projects" class="py-2 px-6 bg-slate-50 rounded border border-solid  border-slate-200 hover:border-slate-400">View all</a>
+  <h2 class="text-3xl font-bold">Projects</h2>
+  <a href="/projects" class="py-2 px-6 underline text-blue-600 bg-slate-50 rounded border border-solid border-slate-200 hover:border-slate-400">View all</a>
 </div>
 <ul>
   
@@ -67,28 +67,32 @@
 
   </main>
   <footer class="pt-12">
-    <div class="flex flex-wrap space-x-16">
-      <div>
-        <h3 class="text-1xl font-bold">Sitemap</h3>
-        <ul>
-          <li class="pt-2"><a href="/" class="underline text-blue-600">Home</a></li>
-          <li class="pt-2"><a href="/about" class="underline text-blue-600">About</a></li>
-          <li class="pt-2"><a href="/blog" class="underline text-blue-600">Blog</a></li>
-          <li class="pt-2"><a href="/projects" class="underline text-blue-600">Projects</a></li>
-          <li class="pt-2"><a href="/resume" class="underline text-blue-600">Resume</a></li>
-          <li class="pt-2"><a href="/book-notes" class="underline text-blue-600">Book notes</a></li>
-          <li class="pt-2"><a href="/uses" class="underline text-blue-600">Uses</a></li>
-        </ul>
+    <div class="flex justify-between">
+      <div class="flex flex-wrap space-x-16">
+        <div>
+          <h3 class="text-1xl font-bold">Sitemap</h3>
+          <ul>
+            <li class="pt-2"><a href="/" class="underline text-blue-600">Home</a></li>
+            <li class="pt-2"><a href="/about" class="underline text-blue-600">About</a></li>
+            <li class="pt-2"><a href="/blog" class="underline text-blue-600">Blog</a></li>
+            <li class="pt-2"><a href="/projects" class="underline text-blue-600">Projects</a></li>
+            <li class="pt-2"><a href="/contact" class="underline text-blue-600">Contact</a></li>
+            <li class="pt-2"><a href="/resume" class="underline text-blue-600">Resume</a></li>
+            <li class="pt-2"><a href="/book-notes" class="underline text-blue-600">Book notes</a></li>
+            <li class="pt-2"><a href="/uses" class="underline text-blue-600">Uses</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-1xl font-bold">Links</h3>
+          <ul>
+            <li class="pt-2 flex"><a href="https://github.com/micahthobbs" target="_blank" rel="noopener noreferrer" class="underline text-blue-600 after:content-['↗️']">Github</a></li>
+            <li class="pt-2"><a href="https://www.linkedin.com/in/micahthobbs" target="_blank" rel="noopener noreferrer" class="underline text-blue-600 after:content-['↗️']">LinkedIn</a></li>
+            <li class="pt-2"><a href="https://twitter.com/micahthobbs" target="_blank" rel="noopener noreferrer" class="underline text-blue-600 after:content-['↗️']">Twitter</a></li>
+            
+          </ul> 
+        </div>
       </div>
-      <div>
-        <h3 class="text-1xl font-bold">Links</h3>
-        <ul>
-          <li class="pt-2"><a href="https://github.com/micahthobbs" target="_blank" class="underline text-blue-600">Github</a></li>
-          <li class="pt-2"><a href="https://www.linkedin.com/in/micahthobbs" target="_blank" class="underline text-blue-600">LinkedIn</a></li>
-          <li class="pt-2"><a href="https://twitter.com/micahthobbs" target="_blank" class="underline text-blue-600">Twitter</a></li>
-          
-        </ul>   
-      </div>
+      <a href="" class="underline text-blue-600">Back to top ⬆️</a> 
     </div>
   </footer>
 </body>
