@@ -3,7 +3,12 @@ module.exports = {
   // https://www.youtube.com/watch?v=VcW3T9EOo5M
   content: ["./src/**/*.{html,njk,md,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'basecamp-green': '#2da530',
+        'basecamp-sand': '#fcf4f2',
+      },
+    },
   },
   plugins: [],
 }
