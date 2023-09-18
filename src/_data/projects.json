@@ -1,50 +1,50 @@
 [
   {
-    "title": "Curb Your Spend",
-    "year": "test",
-    "description": "This is the first project.",
-    "overview": "This is the first project.",
-    "demo": "This is the first project.",
-    "github": "This is the first project."
+    "title": "💸 Curb Your Spend",
+    "year": "2022",
+    "description": "Eliminate impulse spending and buyers remorse for good.",
+    "overviewLink": "This is the first project.",
+    "demoLink": "This is the first project.",
+    "githubLink": "https://github.com/micahthobbs/curbyourspend"
   },
   {
-    "title": "Rent a Boat",
-    "year": "test",
+    "title": "⛵️ Rent a Boat",
+    "year": "2022",
     "description": "This is the first project.",
-    "overview": "This is the first project.",
-    "demo": "This is the first project.",
-    "github": "This is the first project."
+    "overviewLink": "This is the first project.",
+    "demoLink": "This is the first project.",
+    "githubLink": "This is the first project."
   },
   {
-    "title": "Random Quote Generator",
+    "title": "💬 Random Quote Generator",
     "year": "test",
     "description": "This is the first project.",
-    "overview": "This is the first project.",
-    "demo": "This is the first project.",
-    "github": "This is the first project."
+    "overviewLink": "This is the first project.",
+    "demoLink": "This is the first project.",
+    "githubLink": "This is the first project."
   },
   {
-    "title": "Annual Performance Reviews",
-    "year": "test",
+    "title": "📊 Annual Performance Reviews",
+    "year": "2021",
     "description": "This is the first project.",
-    "overview": "This is the first project.",
-    "demo": "This is the first project.",
-    "github": "This is the first project."
+    "overviewLink": "This is the first project.",
+    "demoLink": "This is the first project.",
+    "githubLink": "This is the first project."
   },
   {
-    "title": "Conference Form",
+    "title": "✉️ Conference Form",
     "year": "test",
     "description": "This is the first project.",
-    "overview": "This is the first project.",
-    "demo": "This is the first project.",
-    "github": "This is the first project."
+    "overviewLink": "This is the first project.",
+    "demoLink": "This is the first project.",
+    "githubLink": "This is the first project."
   },
   {
-    "title": "Technical Documentation",
+    "title": "📑 Technical Documentation",
     "year": "test",
     "description": "This is the first project.",
-    "overview": "This is the first project.",
-    "demo": "This is the first project.",
-    "github": "This is the first project."
+    "overviewLink": "This is the first project.",
+    "demoLink": "This is the first project.",
+    "githubLink": "This is the first project."
   }
 ]
