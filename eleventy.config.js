@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addDataExtension('json', contents => {
     return JSON.parse(contents);
   });
+  // eleventyConfig.addShortcode("year", () => `${new Date().getDay()}`);
   return {
     dir: {
       input: 'src',

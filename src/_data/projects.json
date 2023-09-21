@@ -8,7 +8,7 @@
     "githubLink": "https://github.com/micahthobbs/curbyourspend"
   },
   {
-    "title": "⛵️ Rent a Boat",
+    "title": "🚤 Rent a Boat",
     "year": "2022",
     "description": "This is the first project.",
     "overviewLink": "This is the first project.",
@@ -16,8 +16,8 @@
     "githubLink": "This is the first project."
   },
   {
-    "title": "💬 Random Quote Generator",
-    "year": "test",
+    "title": "🍿 Movie Watch List",
+    "year": "2022",
     "description": "This is the first project.",
     "overviewLink": "This is the first project.",
     "demoLink": "This is the first project.",
@@ -41,6 +41,14 @@
   },
   {
     "title": "📑 Technical Documentation",
+    "year": "test",
+    "description": "This is the first project.",
+    "overviewLink": "This is the first project.",
+    "demoLink": "This is the first project.",
+    "githubLink": "This is the first project."
+  },
+  {
+    "title": "💬 Random Quote Generator",
     "year": "test",
     "description": "This is the first project.",
     "overviewLink": "This is the first project.",

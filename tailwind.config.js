@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         'basecamp-green': '#2da530',
-        'basecamp-sand': '#fcf4f2',
+        'basecamp-sand': '#f0f0e9',
       },
     },
   },
