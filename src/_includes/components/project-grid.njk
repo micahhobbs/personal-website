@@ -1,0 +1,14 @@
+<div class="grid lg:grid-cols-3 md:grid-cols-2 gap-6 pt-10">
+  {% for project in projects %}
+    <div class="bg-basecamp-sand w-full space-y-3 p-5 rounded border border-solid border-1">
+      <!-- <time class="block">{{ project.year }}</time> -->
+      <p class="font-bold">{{ project.title }}</p>
+      <p><span class="">{{ project.description}}</span></p>
+      <div class="flex flex-wrap space-x-3">
+        <a href="{{ project.overviewLink }}" class="underline font-bold text-blue-600">Overview</a>
+        <a href="{{ project.demoLink }}" target="_blank" class="underline font-bold text-blue-600">Demo</a>
+        <a href="{{ project.githubLink }}" target="_blank" class="underline font-bold text-blue-600">Code</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>

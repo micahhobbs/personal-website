@@ -1,4 +1,4 @@
-Sitemap: https://www.micahthobbs.com/sitemap.xml
+Sitemap: https://www.micahhobbs.net/sitemap.xml
 
 User-agent: *
 Allow: /

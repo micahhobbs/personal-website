@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/css/styles.css" rel="stylesheet">
-  <title>{{title}}</title>
+  <title></title>
   <meta name="title" content="Micah Hobbs | Software developer">
   <meta name="description" content="Hi, I'm Micah. I'm a software developer from Canberra, Australia.">
 </head>
@@ -22,7 +22,11 @@
     </nav>
   </header>
   <main class="pt-10">
-    {{ content | safe }}
+    <h1>Contact</h1>
+<p>Email
+LinkedIn
+Twitter</p>
+
   </main>
   <footer class="pt-12 pb-4">
     <div class="flex justify-between">
@@ -46,7 +50,7 @@
             <li class="pt-2 flex"><a href="https://github.com/micahthobbs" target="_blank" rel="noopener noreferrer" class="underline font-bold text-blue-600 after:content-['']">Github</a></li>
             <li class="pt-2"><a href="https://www.linkedin.com/in/micahthobbs" target="_blank" rel="noopener noreferrer" class="underline font-bold text-blue-600 after:content-['']">LinkedIn</a></li>
             <li class="pt-2"><a href="https://twitter.com/micahthobbs" target="_blank" rel="noopener noreferrer" class="underline font-bold text-blue-600 after:content-['']">Twitter</a></li>
-            {# <li class="pt-2"><a href="mailto:hi@micahthobbs.com" class="underline text-blue-600">Email</a></li>     #}
+            
           </ul> 
         </div>
       </div>

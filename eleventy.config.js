@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
   // Return your Object options:
-  eleventyConfig.addPassthroughCopy({ 'src/robots.txt': '/robots.txt' });
+  eleventyConfig.addPassthroughCopy({ 'src/robots.txt': 'public/robots.txt' });
   eleventyConfig.addDataExtension('json', contents => {
     return JSON.parse(contents);
   });
