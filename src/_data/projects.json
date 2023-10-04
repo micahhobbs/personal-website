@@ -33,19 +33,19 @@
   },
   {
     "title": "✉️ Conference Form",
-    "year": "test",
+    "year": "2019",
     "description": "This is the first project.",
     "overviewLink": "This is the first project.",
-    "demoLink": "This is the first project.",
-    "githubLink": "This is the first project."
+    "demoLink": "https://interactiveform.netlify.app",
+    "githubLink": "https://github.com/micahthobbs/interactive-form"
   },
   {
     "title": "📑 Technical Documentation",
     "year": "test",
     "description": "This is the first project.",
     "overviewLink": "This is the first project.",
-    "demoLink": "This is the first project.",
-    "githubLink": "This is the first project."
+    "demoLink": "https://fcc-rwd-technical-document-page.netlify.app/",
+    "githubLink": "https://github.com/micahthobbs/fcc-rwd-technical-document-page"
   },
   {
     "title": "💬 Random Quote Generator",

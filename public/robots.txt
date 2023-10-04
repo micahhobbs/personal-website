@@ -1,4 +1,0 @@
-Sitemap: https://www.micahhobbs.net/sitemap.xml
-
-User-agent: *
-Allow: /

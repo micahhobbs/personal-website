@@ -1,9 +1,12 @@
 module.exports = function(eleventyConfig) {
   // Return your Object options:
+  eleventyConfig.addPassthroughCopy('robots.txt');
   eleventyConfig.addPassthroughCopy({ 'src/robots.txt': 'public/robots.txt' });
+  eleventyConfig.addPassthroughCopy('src/images');
   eleventyConfig.addDataExtension('json', contents => {
     return JSON.parse(contents);
   });
+  eleventyConfig.addPassthroughCopy("img");
   // eleventyConfig.addShortcode("year", () => `${new Date().getDay()}`);
   return {
     dir: {
