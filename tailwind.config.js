@@ -5,9 +5,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'basecamp-green': '#2da530',
+        // 'basecamp-green': '#2da530',
+        'basecamp-green': '#4385BE',
         // 'basecamp-green': '#1C631D',
-        'basecamp-sand': '#f0f0e9',
+        // 'basecamp-sand': '#f0f0e9',
+        'stephango-paper': '#FFFCF0',
+        'stephango-black': '#282726',
       },
     },
   },
