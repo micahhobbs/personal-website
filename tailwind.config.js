@@ -5,12 +5,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // 'basecamp-green': '#2da530',
-        'basecamp-green': '#4385BE',
-        // 'basecamp-green': '#1C631D',
-        // 'basecamp-sand': '#f0f0e9',
-        'stephango-paper': '#FFFCF0',
-        'stephango-black': '#282726',
+        "tania-light-grey": "#EEEEEE",
+        "tania-dark-grey": "#181818",
+        "tania-dark-font": "#252525",
+        "tania-light-font": "#FFFFFF",
+        "tania-border-color": "#DDD",
+        "tania-card-background": "#F9F9F9"
+        
       },
     },
   },

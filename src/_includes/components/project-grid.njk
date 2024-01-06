@@ -1,9 +1,9 @@
 <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-6 pt-10 auto-rows-fr">
   {% for project in projects %}
-    <div class="w-full space-y-3 p-5 rounded border border-solid border-grey border-stephango-black border-1">
+    <div class="bg-tania-card-background w-full space-y-3 p-5 rounded border border-solid border-grey border-stephango-black border-1">
       <!-- <time class="block">{{ project.year }}</time> -->
       <p class="font-normal">{{ project.title }}</p>
-      <p><span class="">{{ project.description}}</span></p>
+      <p>{{ project.description}}</p>
       <div class="flex flex-wrap space-x-5">
         <a href="{{ project.overviewLink }}" class="underline text-blue-600">Overview</a>
         <a href="{{ project.demoLink }}" target="_blank" class="underline text-blue-600 after:content-['↗︎']">Demo </a>
