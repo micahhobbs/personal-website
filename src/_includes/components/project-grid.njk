@@ -1,13 +1,13 @@
 <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-6 pt-10 auto-rows-fr">
   {% for project in projects %}
-    <div class="bg-tania-card-background w-full space-y-3 p-5 rounded border border-solid border-grey border-stephango-black border-1">
-      <!-- <time class="block">{{ project.year }}</time> -->
-      <p class="font-normal">{{ project.title }}</p>
-      <p>{{ project.description}}</p>
-      <div class="flex flex-wrap space-x-5">
-        <a href="{{ project.overviewLink }}" class="underline text-blue-600">Overview</a>
-        <a href="{{ project.demoLink }}" target="_blank" class="underline text-blue-600 after:content-['↗︎']">Demo </a>
-        <a href="{{ project.githubLink }}" target="_blank" class="underline text-blue-600 after:content-['↗︎']">Code </a>
+    <div class="bg-tania-card-background w-full space-y-1 p-4 rounded border border-solid border-grey border-1">
+      <time class="font-mono text-gray-700">{{ project.year }}</time>
+      <p class="font-bold">{{ project.title }}</p>
+      <p class="text-gray-700">{{ project.description }}</p>
+      <div class="flex flex-wrap space-x-4 pt-3">
+        <a href="{{ project.overviewLink }}" class="bg-white underline text-blue-600 border border-solid border-tania-border-color rounded py-1 px-2">Overview</a>
+        <a href="{{ project.demoLink }}" target="_blank" class="bg-white underline text-blue-600 border border-solid border-tania-border-color rounded py-1 px-2 after:content-['↗︎']">Demo </a>
+        <a href="{{ project.githubLink }}" target="_blank" class="bg-white underline text-blue-600 border border-solid border-tania-border-color rounded py-1 px-2 after:content-['↗︎']">Code </a>
       </div>
     </div>
   {% endfor %}
