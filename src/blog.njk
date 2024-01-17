@@ -3,15 +3,16 @@ layout: layouts/base.njk
 title: Blog | Micah T. Hobbs
 ---
 
-<h1 class="text-4xl font-bold">Blog</h1>
+<h1 class="text-5xl font-bold">Blog</h1>
 <br>
 <ul>
   {% for post in collections.post %}
-  <li class="pt-2">
-    <a href="{{ post.url }}" class="underline text-blue-600">
-      <h3>{{ post.data.title }}</h3>
-      <!-- <time>{{ post.data.date }} </time> -->
+  <li class="py-2 border-b border-b-solid border-b-tania-border-color last:border-b-0">
+    <time> {{ post.data.date }} </time>
+    <a href="{{ post.url }}" class="">
+      <p>{{ post.data.title }}</p>
     </a>
   </li>
   {% endfor %}
-</ul> 
+  </ul> 
+

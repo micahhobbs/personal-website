@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
-title: My first post
+title: My second post
 tags: post
 ---
 
-Hello 👋 This is my first blog. 
+Hello 👋 This is my second blog. 
 
 <!-- <mark>Test</mark> -->

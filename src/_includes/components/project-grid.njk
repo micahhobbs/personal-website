@@ -1,13 +1,13 @@
-<div class="grid lg:grid-cols-3 md:grid-cols-2 gap-6 pt-10 auto-rows-fr">
+<div class="grid lg:grid-cols-2 md:grid-cols-2 gap-6 pt-5 auto-rows-fr">
   {% for project in projects %}
-    <div class="bg-tania-card-background w-full space-y-1 p-4 rounded border border-solid border-grey border-1">
-      <time class="font-mono text-gray-700">{{ project.year }}</time>
+    <div class="bg-tania-card-background dark:bg-dark-mode-card-bg w-full space-y-1 p-4 rounded-lg border border-solid border-grey border-1 dark:border-dark-mode-border-color">
+      <time class="font-mono text-gray-700 dark:text-gray-400">{{ project.year }}</time>
       <p class="font-bold">{{ project.title }}</p>
-      <p class="text-gray-700">{{ project.description }}</p>
-      <div class="flex flex-wrap space-x-4 pt-3">
-        <a href="{{ project.overviewLink }}" class="bg-white underline text-blue-600 border border-solid border-tania-border-color rounded py-1 px-2">Overview</a>
-        <a href="{{ project.demoLink }}" target="_blank" class="bg-white underline text-blue-600 border border-solid border-tania-border-color rounded py-1 px-2 after:content-['↗︎']">Demo </a>
-        <a href="{{ project.githubLink }}" target="_blank" class="bg-white underline text-blue-600 border border-solid border-tania-border-color rounded py-1 px-2 after:content-['↗︎']">Code </a>
+      <p class="text-gray-700 dark:text-gray-400">{{ project.description }}</p>
+      <div class="flex flex-wrap space-x-2 pt-3">
+        <a href="{{ project.overviewLink }}" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+        <a href="{{ project.demoLink }}" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
+        <a href="{{ project.githubLink }}" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
       </div>
     </div>
   {% endfor %}

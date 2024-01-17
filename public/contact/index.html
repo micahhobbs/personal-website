@@ -8,19 +8,29 @@
   <title>Contact | Micah Hobbs</title>
   <meta name="title" content="Micah Hobbs | Software developer">
   <meta name="description" content="Hi, I'm Micah. I'm a software developer from Canberra, Australia.">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; connect-sre 'self'; img-src 'self'; style-src 'self';" />
+  
+  <script>
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  </script>
 </head>
-<body class="container mx-auto max-w-6xl text-tania-dark-font ">
-  <header class="py-5 font-normal border-b border-b-solid border-b-tania-border-color fixed top-0 left-0 w-full bg-inherit sm:border-none sm:relative">
+<body class="dark:bg-dark-mode-bg container mx-auto max-w-3xl text-tania-dark-font dark:text-white">
+  <header class="py-4 md:py-8 font-normal border-b border-b-solid border-b-tania-border-color dark:border-b-dark-mode-border-color fixed top-0 left-0 w-full bg-white dark:bg-dark-mode-bg sm:border-none sm:relative">
     <div class="px-4">
-      <h1 class="hidden sm:block sm:pt-9 text-xl font-bold md:block md:py-3"><span class="pr-3 text-4xl">👨‍💻</span>Micah Hobbs</h1>
-      <nav class="">
-        <ul class="flex space-x-5">
-          <li><a href="/" class="underline text-blue-600">Home</a></li>
-          <li><a href="/about" class="underline text-blue-600">About</a></li>
-          <li><a href="/blog" class="underline text-blue-600">Blog</a></li>
-          <li><a href="/projects" class="underline text-blue-600">Projects</a></li>
+      <h1 class="hidden sm:block sm:pt-9 text-xl font-bold md:block md:py-3"><span class="pr-2 text-2xl">👨‍💻</span>Micah Hobbs</h1>
+      <nav class="flex justify-between">
+        <ul class="flex space-x-7">
+          <li><a href="/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">Home</a></li>
+          <li><a href="/about/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">About</a></li>
+          <li><a href="/blog/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">Blog</a></li>
+          <li><a href="/projects/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">Projects</a></li>
         </ul>
+        <div class="theme-selector">
+          <p class="theme-text">Theme</p>
+        </div>
       </nav>
     </div>
   </header>
@@ -36,16 +46,16 @@
         <div>
           <h3 class="text-1xl font-bold">Sitemap</h3>
           <ul>
-            <li class="pt-2"><a href="/" class="underline text-blue-600">Home</a></li>
-            <li class="pt-2"><a href="/about" class="underline text-blue-600">About</a></li>
-            <li class="pt-2"><a href="/blog" class="underline text-blue-600">Blog</a></li>
-            <li class="pt-2"><a href="/projects" class="underline text-blue-600">Projects</a></li>
+            <li class="pt-2"><a href="/" class="">Home</a></li>
+            <li class="pt-2"><a href="/about" class="">About</a></li>
+            <li class="pt-2"><a href="/blog" class="">Blog</a></li>
+            <li class="pt-2"><a href="/projects" class="">Projects</a></li>
             
         </div>
         <div>
           <h3 class="text-1xl font-bold">Links</h3>
           <ul>
-            <li class="pt-2 flex"><a href="https://github.com/micahthobbs" target="_blank" rel="noopener noreferrer" class="underline text-blue-600 after:content-['↗︎']">Github </a></li>
+            <li class="pt-2 flex"><a href="https://github.com/micahthobbs" target="_blank" rel="noopener noreferrer" class="after:content-['↗︎']">Github </a></li>
             
             
           </ul> 
@@ -53,5 +63,35 @@
       </div>
     </div>
   </footer>
+  <script>
+    // Whenever the user explicitly chooses light mode
+    let themeSelector = document.querySelector(".theme-selector")
+    let themeText = document.querySelector(".theme-text")
+    themeSelector.addEventListener("click", function(e) {
+      console.log("Event logged");
+      if (document.documentElement.classList.contains('dark') || localStorage.theme === "dark") {
+        localStorage.theme = 'light';
+        document.documentElement.classList.remove('dark');
+        
+      } else {
+        localStorage.theme = 'dark';
+        document.documentElement.classList.add('dark');
+        
+      }
+    });
+
+
+    let navLinks = document.querySelectorAll("nav ul li a");
+    let urlPath = location.pathname;
+    for (let i = 0; i < navLinks.length; i++) {
+      if (navLinks[i].pathname === urlPath) {
+        navLinks[i].classList.add("underline", "underline-offset-4", "decoration-2", "decoration-blue-underline");
+      } else {
+        navLinks[i].classList.remove("underline", "underline-offset-4", "decoration-2", "decoration-blue-underline");
+      }
+    }
+
+
+  </script>
 </body>
 </html>
