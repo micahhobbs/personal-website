@@ -3,14 +3,14 @@ layout: layouts/base.njk
 title: Home | Micah Hobbs
 ---
 
-<p class="font-bold text-5xl">Hey, I'm Micah 👋</p>  
+<h1 class="font-bold text-4xl">Hey, I'm Micah 👋</h1>  
 {# <p class="pt-8">Welcome to my website. It's a work in progress 🚧 <br><br> I'm a software developer and IT consultant living in Canberra Australia. I currently work for <a href="https://www.pragma.com.au/people/micah-hobbs/" target="_blank" class="underline text-blue-600 after:content-['↗︎']">Pragma as a Principal Consultant </a>. I love building and delivering digital products. Given my broad skills and decades worth of experience I operate as a generalist and can wear many hats in the digital space. Sometimes I work in roles like product management, solution architecture, or systems analysis as way to just get things done. <mark>But, I have the most fun building things.</mark></p>  #}
 <p class="pt-8">Welcome to my website. It's a work in progress.<br><br>
 {# <p class="">You can find out more <a href="/about" class="underline text-blue-600">about me</a>, read some of <a href="/blog" class="underline text-blue-600">my blogs</a>, or check out <a href="/projects" class="underline text-blue-600">my projects</a>. #}
 <div class="flex justify-between py-6">
-  <h2 class="text-3xl font-bold">Recent posts</h2>
+  <h2 class="text-2xl font-bold">Recent posts</h2>
   <!-- <a href="/blog" class="py-2 px-6 underline text-blue-600 bg-slate-50 rounded border border-solid  border-slate-200 hover:border-slate-400">View all</a> -->
-  <a href="/blog" class="py-2 px-6 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg">View all</a>
+  <a href="/blog" class="py-2 px-4 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg">View all</a>
 </div>
   <ul>
   {% for post in collections.post %}
@@ -26,8 +26,8 @@ title: Home | Micah Hobbs
 <!-- Pull latest posts -->
 
 <div class="flex justify-between py-5">
-  <h2 class="text-3xl font-bold">Favourite projects</h2>
-  <a href="/projects" class="py-2 px-6 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg">View all</a>
+  <h2 class="text-2xl font-bold">Favourite projects</h2>
+  <a href="/projects" class="py-2 px-4 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg">View all</a>
 </div>
 {% include 'components/project-grid.njk' %}
 

@@ -1,14 +1,26 @@
 [
   {
-    "title": "💸 Curb Your Spend",
+    "title": "Anchor Logistics booking platform",
+    "year": "2023",
+    "description": "Booking management application for managing sea frieght exports",
+    "overviewLink": "/anchor"
+  },
+  {
+    "title": "Calvary Care performance review prototype",
+    "year": "2023",
+    "description": "Proof of concept application for managing employee performance reviews.",
+    "overviewLink": "/calvary"
+  },
+  {
+    "title": "Curb Your Spend",
     "year": "2022",
-    "description": "Eliminate impulse spending and buyers remorse for good.",
+    "description": "Helps eliminate impulse spending and buyers remorse for good.",
     "overviewLink": "This is the first project.",
     "demoLink": "This is the first project.",
     "githubLink": "https://github.com/micahthobbs/curbyourspend"
   },
   {
-    "title": "🚤 Rent a Boat",
+    "title": "Rent a Boat",
     "year": "2022",
     "description": "This is the first project.",
     "overviewLink": "This is the first project.",
@@ -32,7 +44,7 @@
     "githubLink": "This is the first project."
   },
   {
-    "title": "✉️ Conference Form",
+    "title": "Conference Form",
     "year": "2019",
     "description": "This is the first project.",
     "overviewLink": "This is the first project.",
@@ -40,7 +52,7 @@
     "githubLink": "https://github.com/micahthobbs/interactive-form"
   },
   {
-    "title": "📑 Technical Documentation",
+    "title": "Technical Documentation",
     "year": "test",
     "description": "This is the first project.",
     "overviewLink": "This is the first project.",
@@ -48,7 +60,7 @@
     "githubLink": "https://github.com/micahthobbs/fcc-rwd-technical-document-page"
   },
   {
-    "title": "💬 Random Quote Generator",
+    "title": "Random Quote Generator",
     "year": "test",
     "description": "This is the first project.",
     "overviewLink": "This is the first project.",

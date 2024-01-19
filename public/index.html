@@ -20,50 +20,51 @@
 <body class="dark:bg-dark-mode-bg container mx-auto max-w-3xl text-tania-dark-font dark:text-white">
   <header class="py-4 md:py-8 font-normal border-b border-b-solid border-b-tania-border-color dark:border-b-dark-mode-border-color fixed top-0 left-0 w-full bg-white dark:bg-dark-mode-bg sm:border-none sm:relative">
     <div class="px-4">
-      <h1 class="hidden sm:block sm:pt-9 text-xl font-bold md:block md:py-3"><span class="pr-2 text-2xl">👨‍💻</span>Micah Hobbs</h1>
-      <nav class="flex justify-between">
-        <ul class="flex space-x-7">
+      <h1 class="hidden sm:block sm:pt-9 text-xl font-bold md:block md:py-3"><a href="/"><span class="pr-2 text-2xl">👨‍💻</span>Micah Hobbs</a></h1>
+      <nav class="flex justify-between text-sm dark:text-navbar-color">
+        <ul class="flex space-x-4">
           <li><a href="/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">Home</a></li>
-          <li><a href="/about/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">About</a></li>
-          <li><a href="/blog/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">Blog</a></li>
-          <li><a href="/projects/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">Projects</a></li>
+          <li><a href="/about/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-red-underline">About</a></li>
+          <li><a href="/blog/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-navy-underline">Blog</a></li>
+          <li><a href="/projects/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-yellow-underline">Projects</a></li>
+          <li><a href="/contact/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-purple-underline">Contact</a></li>
         </ul>
         <div class="theme-selector">
-          <p class="theme-text">Theme</p>
+          <p class="theme-text">Mode</p>
         </div>
       </nav>
     </div>
   </header>
   <main class="mt-24 px-4 md:mt-10 ">
     
-<p class="font-bold text-5xl">Hey, I'm Micah 👋</p>  
+<h1 class="font-bold text-4xl">Hey, I'm Micah 👋</h1>  
 
 <p class="pt-8">Welcome to my website. It's a work in progress.<br><br>
 
 <div class="flex justify-between py-6">
-  <h2 class="text-3xl font-bold">Recent posts</h2>
+  <h2 class="text-2xl font-bold">Recent posts</h2>
   <!-- <a href="/blog" class="py-2 px-6 underline text-blue-600 bg-slate-50 rounded border border-solid  border-slate-200 hover:border-slate-400">View all</a> -->
-  <a href="/blog" class="py-2 px-6 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg">View all</a>
+  <a href="/blog" class="py-2 px-4 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg">View all</a>
 </div>
   <ul>
   
   <li class="py-2 border-b border-b-solid border-b-tania-border-color dark:border-b-dark-mode-border-color last:border-b-0">
     <time>  </time>
-    <a href="/posts/my-first-post/" class="">
+    <a href="/first" class="">
       <p>My first post</p>
     </a>
   </li>
   
   <li class="py-2 border-b border-b-solid border-b-tania-border-color dark:border-b-dark-mode-border-color last:border-b-0">
     <time>  </time>
-    <a href="/posts/my-second-post/" class="">
+    <a href="/blog/my-second-post/" class="">
       <p>My second post</p>
     </a>
   </li>
   
   <li class="py-2 border-b border-b-solid border-b-tania-border-color dark:border-b-dark-mode-border-color last:border-b-0">
     <time>  </time>
-    <a href="/posts/my-third-post/" class="">
+    <a href="/blog/my-third-post/" class="">
       <p>My third post</p>
     </a>
   </li>
@@ -73,30 +74,72 @@
 <!-- Pull latest posts -->
 
 <div class="flex justify-between py-5">
-  <h2 class="text-3xl font-bold">Favourite projects</h2>
-  <a href="/projects" class="py-2 px-6 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg">View all</a>
+  <h2 class="text-2xl font-bold">Favourite projects</h2>
+  <a href="/projects" class="py-2 px-4 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg">View all</a>
 </div>
 <div class="grid lg:grid-cols-2 md:grid-cols-2 gap-6 pt-5 auto-rows-fr">
   
     <div class="bg-tania-card-background dark:bg-dark-mode-card-bg w-full space-y-1 p-4 rounded-lg border border-solid border-grey border-1 dark:border-dark-mode-border-color">
-      <time class="font-mono text-gray-700 dark:text-gray-400">2022</time>
-      <p class="font-bold">💸 Curb Your Spend</p>
-      <p class="text-gray-700 dark:text-gray-400">Eliminate impulse spending and buyers remorse for good.</p>
+      <time class="font-mono text-gray-700 dark:text-gray-400">2023</time>
+      <p class="font-bold">Anchor Logistics booking platform</p>
+      <p class="text-gray-700 dark:text-gray-400">Booking management application for managing sea frieght exports</p>
       <div class="flex flex-wrap space-x-2 pt-3">
-        <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
-        <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
-        <a href="https://github.com/micahthobbs/curbyourspend" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+          <a href="/anchor" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+        
+        
+        
+        
+      </div>
+    </div>
+  
+    <div class="bg-tania-card-background dark:bg-dark-mode-card-bg w-full space-y-1 p-4 rounded-lg border border-solid border-grey border-1 dark:border-dark-mode-border-color">
+      <time class="font-mono text-gray-700 dark:text-gray-400">2023</time>
+      <p class="font-bold">Calvary Care performance review prototype</p>
+      <p class="text-gray-700 dark:text-gray-400">Proof of concept application for managing employee performance reviews.</p>
+      <div class="flex flex-wrap space-x-2 pt-3">
+        
+          <a href="/calvary" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+        
+        
+        
+        
       </div>
     </div>
   
     <div class="bg-tania-card-background dark:bg-dark-mode-card-bg w-full space-y-1 p-4 rounded-lg border border-solid border-grey border-1 dark:border-dark-mode-border-color">
       <time class="font-mono text-gray-700 dark:text-gray-400">2022</time>
-      <p class="font-bold">🚤 Rent a Boat</p>
+      <p class="font-bold">Curb Your Spend</p>
+      <p class="text-gray-700 dark:text-gray-400">Helps eliminate impulse spending and buyers remorse for good.</p>
+      <div class="flex flex-wrap space-x-2 pt-3">
+        
+          <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+        
+              
+          <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
+        
+              
+          <a href="https://github.com/micahthobbs/curbyourspend" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+        
+      </div>
+    </div>
+  
+    <div class="bg-tania-card-background dark:bg-dark-mode-card-bg w-full space-y-1 p-4 rounded-lg border border-solid border-grey border-1 dark:border-dark-mode-border-color">
+      <time class="font-mono text-gray-700 dark:text-gray-400">2022</time>
+      <p class="font-bold">Rent a Boat</p>
       <p class="text-gray-700 dark:text-gray-400">This is the first project.</p>
       <div class="flex flex-wrap space-x-2 pt-3">
-        <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
-        <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
-        <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+          <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+        
+              
+          <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
+        
+              
+          <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+        
       </div>
     </div>
   
@@ -105,9 +148,16 @@
       <p class="font-bold">🍿 Movie Watch List</p>
       <p class="text-gray-700 dark:text-gray-400">This is the first project.</p>
       <div class="flex flex-wrap space-x-2 pt-3">
-        <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
-        <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
-        <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+          <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+        
+              
+          <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
+        
+              
+          <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+        
       </div>
     </div>
   
@@ -116,42 +166,70 @@
       <p class="font-bold">📊 Annual Performance Reviews</p>
       <p class="text-gray-700 dark:text-gray-400">This is the first project.</p>
       <div class="flex flex-wrap space-x-2 pt-3">
-        <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
-        <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
-        <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+          <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+        
+              
+          <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
+        
+              
+          <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+        
       </div>
     </div>
   
     <div class="bg-tania-card-background dark:bg-dark-mode-card-bg w-full space-y-1 p-4 rounded-lg border border-solid border-grey border-1 dark:border-dark-mode-border-color">
       <time class="font-mono text-gray-700 dark:text-gray-400">2019</time>
-      <p class="font-bold">✉️ Conference Form</p>
+      <p class="font-bold">Conference Form</p>
       <p class="text-gray-700 dark:text-gray-400">This is the first project.</p>
       <div class="flex flex-wrap space-x-2 pt-3">
-        <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
-        <a href="https://interactiveform.netlify.app" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
-        <a href="https://github.com/micahthobbs/interactive-form" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+          <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+        
+              
+          <a href="https://interactiveform.netlify.app" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
+        
+              
+          <a href="https://github.com/micahthobbs/interactive-form" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+        
       </div>
     </div>
   
     <div class="bg-tania-card-background dark:bg-dark-mode-card-bg w-full space-y-1 p-4 rounded-lg border border-solid border-grey border-1 dark:border-dark-mode-border-color">
       <time class="font-mono text-gray-700 dark:text-gray-400">test</time>
-      <p class="font-bold">📑 Technical Documentation</p>
+      <p class="font-bold">Technical Documentation</p>
       <p class="text-gray-700 dark:text-gray-400">This is the first project.</p>
       <div class="flex flex-wrap space-x-2 pt-3">
-        <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
-        <a href="https://fcc-rwd-technical-document-page.netlify.app/" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
-        <a href="https://github.com/micahthobbs/fcc-rwd-technical-document-page" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+          <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+        
+              
+          <a href="https://fcc-rwd-technical-document-page.netlify.app/" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
+        
+              
+          <a href="https://github.com/micahthobbs/fcc-rwd-technical-document-page" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+        
       </div>
     </div>
   
     <div class="bg-tania-card-background dark:bg-dark-mode-card-bg w-full space-y-1 p-4 rounded-lg border border-solid border-grey border-1 dark:border-dark-mode-border-color">
       <time class="font-mono text-gray-700 dark:text-gray-400">test</time>
-      <p class="font-bold">💬 Random Quote Generator</p>
+      <p class="font-bold">Random Quote Generator</p>
       <p class="text-gray-700 dark:text-gray-400">This is the first project.</p>
       <div class="flex flex-wrap space-x-2 pt-3">
-        <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
-        <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
-        <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+          <a href="This is the first project." class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+        
+              
+          <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
+        
+              
+          <a href="This is the first project." target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+        
+        
       </div>
     </div>
   
@@ -169,6 +247,8 @@
             <li class="pt-2"><a href="/about" class="">About</a></li>
             <li class="pt-2"><a href="/blog" class="">Blog</a></li>
             <li class="pt-2"><a href="/projects" class="">Projects</a></li>
+            <li class="pt-2"><a href="/contact" class"">Contact</a></li>
+            <li class="pt-2"><a href="/resume" class="">Resume</a></li>
             
         </div>
         <div>
@@ -187,7 +267,7 @@
     let themeSelector = document.querySelector(".theme-selector")
     let themeText = document.querySelector(".theme-text")
     themeSelector.addEventListener("click", function(e) {
-      console.log("Event logged");
+      
       if (document.documentElement.classList.contains('dark') || localStorage.theme === "dark") {
         localStorage.theme = 'light';
         document.documentElement.classList.remove('dark');
@@ -198,15 +278,30 @@
         
       }
     });
-
-
+    
     let navLinks = document.querySelectorAll("nav ul li a");
     let urlPath = location.pathname;
     for (let i = 0; i < navLinks.length; i++) {
       if (navLinks[i].pathname === urlPath) {
-        navLinks[i].classList.add("underline", "underline-offset-4", "decoration-2", "decoration-blue-underline");
+        switch (urlPath) {
+          case "/":
+            navLinks[i].classList.add("dark:text-white", "underline", "underline-offset-4", "decoration-2", "decoration-blue-underline");
+            break;
+          case "/about/":
+            navLinks[i].classList.add("dark:text-white", "underline", "underline-offset-4", "decoration-2", "decoration-red-underline");
+            break;
+          case "/blog/":
+            navLinks[i].classList.add("dark:text-white", "underline", "underline-offset-4", "decoration-2", "decoration-navy-underline");
+            break;
+          case "/projects/":
+            navLinks[i].classList.add("dark:text-white", "underline", "underline-offset-4", "decoration-2", "decoration-yellow-underline");
+            break;
+          case "/contact/":
+            navLinks[i].classList.add("dark:text-white", "underline", "underline-offset-4", "decoration-2", "decoration-purple-underline");
+            break;
+          }
       } else {
-        navLinks[i].classList.remove("underline", "underline-offset-4", "decoration-2", "decoration-blue-underline");
+        navLinks[i].classList.remove("underline", "underline-offset-4", "decoration-2", "decoration-blue-underline", "decoration-yellow-underline", "decoration-navy-underline", "decoration-red-underline");
       }
     }
 

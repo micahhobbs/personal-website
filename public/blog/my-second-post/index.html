@@ -20,16 +20,17 @@
 <body class="dark:bg-dark-mode-bg container mx-auto max-w-3xl text-tania-dark-font dark:text-white">
   <header class="py-4 md:py-8 font-normal border-b border-b-solid border-b-tania-border-color dark:border-b-dark-mode-border-color fixed top-0 left-0 w-full bg-white dark:bg-dark-mode-bg sm:border-none sm:relative">
     <div class="px-4">
-      <h1 class="hidden sm:block sm:pt-9 text-xl font-bold md:block md:py-3"><span class="pr-2 text-2xl">👨‍💻</span>Micah Hobbs</h1>
-      <nav class="flex justify-between">
-        <ul class="flex space-x-7">
+      <h1 class="hidden sm:block sm:pt-9 text-xl font-bold md:block md:py-3"><a href="/"><span class="pr-2 text-2xl">👨‍💻</span>Micah Hobbs</a></h1>
+      <nav class="flex justify-between text-sm dark:text-navbar-color">
+        <ul class="flex space-x-4">
           <li><a href="/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">Home</a></li>
-          <li><a href="/about/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">About</a></li>
-          <li><a href="/blog/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">Blog</a></li>
-          <li><a href="/projects/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-blue-underline">Projects</a></li>
+          <li><a href="/about/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-red-underline">About</a></li>
+          <li><a href="/blog/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-navy-underline">Blog</a></li>
+          <li><a href="/projects/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-yellow-underline">Projects</a></li>
+          <li><a href="/contact/" class="hover:underline hover:underline-offset-4 hover:decoration-2 hover:decoration-purple-underline">Contact</a></li>
         </ul>
         <div class="theme-selector">
-          <p class="theme-text">Theme</p>
+          <p class="theme-text">Mode</p>
         </div>
       </nav>
     </div>
@@ -48,6 +49,8 @@
             <li class="pt-2"><a href="/about" class="">About</a></li>
             <li class="pt-2"><a href="/blog" class="">Blog</a></li>
             <li class="pt-2"><a href="/projects" class="">Projects</a></li>
+            <li class="pt-2"><a href="/contact" class"">Contact</a></li>
+            <li class="pt-2"><a href="/resume" class="">Resume</a></li>
             
         </div>
         <div>
@@ -66,7 +69,7 @@
     let themeSelector = document.querySelector(".theme-selector")
     let themeText = document.querySelector(".theme-text")
     themeSelector.addEventListener("click", function(e) {
-      console.log("Event logged");
+      
       if (document.documentElement.classList.contains('dark') || localStorage.theme === "dark") {
         localStorage.theme = 'light';
         document.documentElement.classList.remove('dark');
@@ -77,15 +80,30 @@
         
       }
     });
-
-
+    
     let navLinks = document.querySelectorAll("nav ul li a");
     let urlPath = location.pathname;
     for (let i = 0; i < navLinks.length; i++) {
       if (navLinks[i].pathname === urlPath) {
-        navLinks[i].classList.add("underline", "underline-offset-4", "decoration-2", "decoration-blue-underline");
+        switch (urlPath) {
+          case "/":
+            navLinks[i].classList.add("dark:text-white", "underline", "underline-offset-4", "decoration-2", "decoration-blue-underline");
+            break;
+          case "/about/":
+            navLinks[i].classList.add("dark:text-white", "underline", "underline-offset-4", "decoration-2", "decoration-red-underline");
+            break;
+          case "/blog/":
+            navLinks[i].classList.add("dark:text-white", "underline", "underline-offset-4", "decoration-2", "decoration-navy-underline");
+            break;
+          case "/projects/":
+            navLinks[i].classList.add("dark:text-white", "underline", "underline-offset-4", "decoration-2", "decoration-yellow-underline");
+            break;
+          case "/contact/":
+            navLinks[i].classList.add("dark:text-white", "underline", "underline-offset-4", "decoration-2", "decoration-purple-underline");
+            break;
+          }
       } else {
-        navLinks[i].classList.remove("underline", "underline-offset-4", "decoration-2", "decoration-blue-underline");
+        navLinks[i].classList.remove("underline", "underline-offset-4", "decoration-2", "decoration-blue-underline", "decoration-yellow-underline", "decoration-navy-underline", "decoration-red-underline");
       }
     }
 

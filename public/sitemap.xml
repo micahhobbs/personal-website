@@ -35,7 +35,7 @@
   
     
       <url>
-          <loc>https://www.micahhobbs.net/posts/my-first-post/</loc>
+          <loc>https://www.micahhobbs.net/first</loc>
           <lastmod>2023-08-27T11:27:57.054Z</lastmod>
           <changefreq>monthly</changefreq>
       </url>
@@ -67,7 +67,7 @@
   
     
       <url>
-          <loc>https://www.micahhobbs.net/posts/my-second-post/</loc>
+          <loc>https://www.micahhobbs.net/blog/my-second-post/</loc>
           <lastmod>2024-01-17T00:14:38.951Z</lastmod>
           <changefreq>monthly</changefreq>
       </url>
@@ -75,7 +75,7 @@
   
     
       <url>
-          <loc>https://www.micahhobbs.net/posts/my-third-post/</loc>
+          <loc>https://www.micahhobbs.net/blog/my-third-post/</loc>
           <lastmod>2024-01-17T00:14:39.698Z</lastmod>
           <changefreq>monthly</changefreq>
       </url>

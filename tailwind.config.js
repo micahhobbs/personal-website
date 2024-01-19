@@ -15,7 +15,12 @@ module.exports = {
         "tania-card-background": "#F9F9F9",
         "dark-mode-bg": "#181818",
         "dark-mode-card-bg": "#1F1F1F",
-        "blue-underline": "#6EA9F1",
+        "red-underline": "#EA3349",
+        "yellow-underline": "#F9D20C",
+        "navy-underline": "#0E5472",
+        "blue-underline": "#83B9BB",
+        "purple-underline": "#4D4262",
+        "navbar-color": "#BBB"
       },
     },
   },
