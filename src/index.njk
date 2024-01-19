@@ -10,11 +10,11 @@ title: Home | Micah Hobbs
 <div class="flex justify-between py-6">
   <h2 class="text-2xl font-bold">Recent posts</h2>
   <!-- <a href="/blog" class="py-2 px-6 underline text-blue-600 bg-slate-50 rounded border border-solid  border-slate-200 hover:border-slate-400">View all</a> -->
-  <a href="/blog" class="py-2 px-4 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg">View all</a>
+  <a href="/blog" class="py-2 px-4 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg hover:underline hover:underline-offset-4 hover:decoration-2">View all</a>
 </div>
   <ul>
   {% for post in collections.post %}
-  <li class="py-2 border-b border-b-solid border-b-tania-border-color dark:border-b-dark-mode-border-color last:border-b-0">
+  <li class="py-2 border-b border-b-solid border-b-tania-border-color dark:border-b-dark-mode-border-color last:border-b-0 hover:underline hover:underline-offset-4 hover:decoration-2">
     <time> {{ post.data.date }} </time>
     <a href="{{ post.url }}" class="">
       <p>{{ post.data.title }}</p>
@@ -27,7 +27,7 @@ title: Home | Micah Hobbs
 
 <div class="flex justify-between py-5">
   <h2 class="text-2xl font-bold">Favourite projects</h2>
-  <a href="/projects" class="py-2 px-4 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg">View all</a>
+  <a href="/projects" class="py-2 px-4 bg-tania-card-background rounded-lg border border-solid border-tania-border-color dark:border-dark-mode-border-color dark:bg-dark-mode-card-bg hover:underline hover:underline-offset-4 hover:decoration-2">View all</a>
 </div>
 {% include 'components/project-grid.njk' %}
 

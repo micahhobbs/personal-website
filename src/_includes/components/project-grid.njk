@@ -6,13 +6,13 @@
       <p class="text-gray-700 dark:text-gray-400">{{ project.description }}</p>
       <div class="flex flex-wrap space-x-2 pt-3">
         {% if project.overviewLink %}
-          <a href="{{ project.overviewLink }}" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2">Overview</a>
+          <a href="{{ project.overviewLink }}" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 hover:underline hover:underline-offset-4 hover:decoration-2">Overview</a>
         {% endif %}
         {% if project.demoLink %}      
-          <a href="{{ project.demoLink }}" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Demo </a>
+          <a href="{{ project.demoLink }}" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎'] hover:underline hover:underline-offset-4 hover:decoration-2">Demo </a>
         {% endif %}
         {% if project.githubLink %}      
-          <a href="{{ project.githubLink }}" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎']">Code </a>
+          <a href="{{ project.githubLink }}" target="_blank" class="border border-solid border-tania-border-color dark:border-dark-mode-border-color rounded-lg py-1 px-2 after:content-['↗︎'] hover:underline hover:underline-offset-4 hover:decoration-2">Code </a>
         {% endif %}
         
       </div>
